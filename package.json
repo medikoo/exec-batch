@@ -1,0 +1,21 @@
+{
+  "name": "exec-batch",
+  "version": "0.0.0",
+  "description": "Batch execution of shell commands",
+  "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
+  "keywords": [
+    "exec",
+    "command",
+    "shell",
+    "bash",
+    "batch",
+    "process",
+    "serialize",
+    "serial"
+  ],
+  "dependencies": {
+    "es5-ext": "git://github.com/medikoo/es5-ext",
+    "cli-color": "git://github.com/medikoo/cli-color"
+  },
+  "license": "MIT"
+}
