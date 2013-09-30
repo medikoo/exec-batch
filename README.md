@@ -5,14 +5,14 @@
 
 	$ npm install exec-batch
 
-### Usage exaple
+### Usage example
 
 ```javascript
 var ExecBatch = require('exec-batch');
 
-// Clean github repo
 batch = new ExecBatch(options);
 
+// By example clean current git repository from any changes:
 batch.add('git reset');
 batch.add('git checkout .');
 batch.add('git clean -df');
