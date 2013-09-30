@@ -14,8 +14,9 @@
     "serial"
   ],
   "dependencies": {
-    "es5-ext": "git://github.com/medikoo/es5-ext",
-    "cli-color": "git://github.com/medikoo/cli-color"
+    "d": "git://github.com/medikoo/d.git",
+    "es5-ext": "git://github.com/medikoo/es5-ext.git",
+    "cli-color": "git://github.com/medikoo/cli-color.git"
   },
   "license": "MIT"
 }

@@ -1,7 +1,7 @@
 'use strict';
 
 var callable = require('es5-ext/object/valid-callable')
-  , d        = require('es5-ext/object/descriptor')
+  , d        = require('d')
   , cmdOut   = require('cli-color').blackBright
   , exec     = require('child_process').exec
 
