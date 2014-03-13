@@ -9,7 +9,7 @@ module.exports = function (cmd/*, options*/) {
 	var options = normalizeOpts(Object(arguments[1])), child, def;
 
 	if (options.cwd === undefined) options.cwd = process.cwd();
-	if (options.env === undefined) options.cwd = process.env;
+	if (options.env === undefined) options.env = process.env;
 	if (options.out === undefined) options.out = process.stdout;
 	if (options.err === undefined) options.err = process.stderr;
 	if (options.out) options.out.write(cmdOut(cmd) + "\n");
