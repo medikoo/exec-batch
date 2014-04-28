@@ -1,6 +1,6 @@
 {
   "name": "exec-batch",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Batch execution of shell commands",
   "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
   "keywords": [

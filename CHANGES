@@ -1,0 +1,8 @@
+v0.1.0  --  2014.04.28
+* Depend strictly on npm hosted dependencies
+* Provide stand alone exec module that returns promise
+* Update to use latest verions of dependencies
+* Improve documentation
+
+v0.0.0  --  2013.09.28
+Initial (dev version
